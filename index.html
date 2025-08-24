@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual JSON Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'gray-900': '#121212',
+              'gray-800': '#1E1E1E',
+              'gray-700': '#2D2D2D',
+              'gray-600': '#3D3D3D',
+              'gray-400': '#A0A0A0',
+              'blue-500': '#3b82f6',
+              'green-500': '#22c55e',
+              'red-500': '#ef4444',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "jszip": "https://esm.sh/jszip",
+    "dexie": "https://esm.sh/dexie",
+    "@google/genai": "https://esm.sh/@google/genai",
+    "marked": "https://esm.sh/marked",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react",
+    "@types/node": "https://esm.sh/@types/node"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900 text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

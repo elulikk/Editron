@@ -1,0 +1,5 @@
+{
+  "name": "EdiTron",
+  "description": "Un editor visual para archivos package.json, permitiendo a los usuarios añadir, editar y eliminar propiedades, scripts y dependencias sin errores de sintaxis.",
+  "requestFramePermissions": []
+}
